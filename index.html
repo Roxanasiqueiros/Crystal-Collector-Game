@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Crystal Game</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+</head>
+<body>
+    <div id="banner">
+        <h1>Crystal Collector Game</h1>
+    </div>
+    <div id="instructions">
+        <p>Instructions:</p>
+        <p>You will be given a random number at the start of the game.</p>
+        <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
+        <p>You win the game by matching your total score to the random numer. You lose the game if your score surpasses the random number.</p>
+        <p>The value of each crystal is hidden from you until you click on it.</p>
+        <p>The game will change the values of each crystal each time the game starts.</p>
+    </div>
+    <div id="compNum">
+        <p>Match this number:</p>
+    </div>
+    <div id="stats">
+        <p class="wins"></p>
+        <p class="losses"></p>
+    </div>
+    <div class="clearfix"></div>
+    
+    <!-- images of crystals-->
+    <div id="row">
+
+        <div class="crystal1">
+            <button id="button1" class="number" value=""> <img src="assets/images/blue.png" style="width: 45px; height: 45px"
+            alt="blue crystal"></button>
+        </div>
+
+        <div class="crystal2">
+            <button id="button2" class="number" value=""> <img src="assets/images/ruby.png" style="width: 45px; height: 45px"
+            alt="ruby crystal"></button>
+        </div>
+
+        <div class="crystal3">
+            <button id="button3" class="number" value=""> <img src="assets/images/zircon.png" style="width: 45px; height: 45px"
+            alt="zircon crystal"></button>
+         </div>
+
+         <div class="crystal4">
+             <button id="button4" class="number" value=""> <img src="assets/images/orange.png" style="width: 45px; height: 45px"
+             alt="orange crystal"></button>
+            </div>
+         </div>
+
+         <div class="clearfix"></div>
+            
+         <div id="text">
+                 <p>Your score is:</p>
+             </div>
+             <div id="userNum"></div>
+         
+
+    <script type="text/javascript" src="assets/javascript/game.js"></script
+</body>
+</html>

@@ -1,0 +1,91 @@
+body{
+    background-color: lightpink;
+}
+#banner{
+    background-color: lightskyblue;
+    color:black;
+    text-align: center;
+    width: auto;
+    height: 50px;
+    margin: 10px;
+    padding:10px;
+    font-family: 'Dancing Script', cursive; 
+}
+
+#instructions{
+    background-color: lightskyblue;
+    color: black;
+    text-align: center;
+    width 500px;
+    height: auto;
+    margin: 10px;
+    padding: 20px;
+}
+#compNum {
+    background-color: lightskyblue;
+    color: black;
+    width: 200px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+#stats{
+    background-color: lightskyblue;
+    color:black;
+    width: 220px;
+    height: 70px;
+    padding: 20px;
+    margin: 10px;
+    float:left;
+}
+#row{
+    width:220px;
+    height:
+    auto;
+    margin: 10px;
+    float:left;
+}
+.crystal1, .crystal2, .crystal3, .crystal4 {
+    float: left;
+    width: 20%;
+    padding: 5px;
+}
+#row:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+#text{
+    background-color: lightskyblue;
+    margin-left: 10px;
+    color: black;
+    position: relative;
+    float: left;
+    width: 220px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+#userNum{
+    background-color: lightskyblue;
+    color: black;
+    width: 220px;
+    height: 70px;
+    margin-left: 10px;
+    text-align: center;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
